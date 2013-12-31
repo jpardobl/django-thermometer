@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+setup.py
+django_thermometer.egg-info/PKG-INFO
+django_thermometer.egg-info/SOURCES.txt
+django_thermometer.egg-info/dependency_links.txt
+django_thermometer.egg-info/requires.txt
+django_thermometer.egg-info/top_level.txt

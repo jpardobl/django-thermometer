@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: django-thermometer
+Version: 0.1
+Summary: A Django app to publish DS18B20 thermomenter figures throught REST API
+Home-page: http://jpardobl.com
+Author: Javier Pardo Blasco(jpardobl)
+Author-email: jpardo@digitalhigh.es
+License: BSD License
+Description: django-thermometer
+        ==================
+        
+        Django app which publishes as REST API the figures that come out from sensor DS18B20. The sensor can be
+        bought at Adrafruit.
+        
+        
+        
+        
+        Further documentation found at http://jpardobl.com/home-automation-python-project/
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
