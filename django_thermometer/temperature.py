@@ -1,4 +1,4 @@
-import os, simplejson, settings
+import os, simplejson, settings, time
 
 
 
@@ -30,7 +30,7 @@ class Thermometer():
 	lines = self._read_raw()
 	while lines[0].strip()[-3:] != 'YES':
 	    time.sleep(0.2)
-	    lines = self.read_raw()
+	    lines = self._read_raw()
 	equals_pos = lines[1].find('t=')
 	if equals_pos != -1:
 	    temp_string = lines[1][equals_pos+2:]
