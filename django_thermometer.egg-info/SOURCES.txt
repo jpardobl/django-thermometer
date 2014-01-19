@@ -1,5 +1,6 @@
 LICENSE
 MANIFEST.in
+README.md
 setup.py
 django_thermometer.egg-info/PKG-INFO
 django_thermometer.egg-info/SOURCES.txt
