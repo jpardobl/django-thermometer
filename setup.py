@@ -8,8 +8,8 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name = 'django_thermometer',
-    version = '0.1.1',
-    packages = [],
+    version = '0.1.3',
+    packages = ["django_thermometer"],
     include_package_data = True,
     license = 'BSD License',
     description = 'A Django app to publish DS18B20 thermomenter figures throught REST API',

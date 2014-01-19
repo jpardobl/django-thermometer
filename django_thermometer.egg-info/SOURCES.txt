@@ -2,8 +2,17 @@ LICENSE
 MANIFEST.in
 README.md
 setup.py
+django_thermometer/__init__.py
+django_thermometer/settings.py
+django_thermometer/temperature.py
+django_thermometer/urls.py
+django_thermometer/views.py
 django_thermometer.egg-info/PKG-INFO
 django_thermometer.egg-info/SOURCES.txt
 django_thermometer.egg-info/dependency_links.txt
 django_thermometer.egg-info/requires.txt
 django_thermometer.egg-info/top_level.txt
+django_thermometer/management/__init__.py
+django_thermometer/management/commands/__init__.py
+django_thermometer/management/commands/list_thermometers.py
+django_thermometer/management/commands/read_temperature.py
