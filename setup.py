@@ -8,7 +8,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name = 'django_thermometer',
-    version = '0.1.3',
+    version = '0.4',
     packages = ["django_thermometer"],
     include_package_data = True,
     license = 'BSD License',
@@ -25,6 +25,11 @@ setup(
       "Django==1.5",
       "simplejson==2.6.2",
     ),
+    entry_points={
+        "console_scripts": [
+            "list_thermometers = django_thermometer.temperature:get_thermometers",
+                    ]
+    },
   #  test_suite='test_project.tests.runtests',
    # tests_require=("selenium", "requests"),
     classifiers = [
