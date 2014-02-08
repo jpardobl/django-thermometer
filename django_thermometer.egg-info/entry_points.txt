@@ -1,0 +1,3 @@
+[console_scripts]
+list_thermometers = django_thermometer.temperature:get_thermometers
+

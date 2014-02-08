@@ -12,10 +12,10 @@ setup(
     packages = ["django_thermometer"],
     include_package_data = True,
     license = 'BSD License',
-    description = 'A Django app to publish DS18B20 thermomenter figures throught REST API',
+    description = 'A Django app to publish DS18B20 thermometer figures through REST API',
     long_description = README,
 #TODO set the project's home page
-    url = 'http://jpardobl.com',
+    url = 'http://blog.digitalhigh.es',
     author = 'Javier Pardo Blasco(jpardobl)',
     author_email = 'jpardo@digitalhigh.es',
     extras_require = {
