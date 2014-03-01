@@ -1,3 +1,4 @@
 /.project
 /.pydevproject
 /dist
+/django_thermometer.egg-info
